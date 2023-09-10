@@ -1,0 +1,26 @@
+body {
+    background-color: pink;
+}
+.container {
+    height: 40vh;
+    width: 20vw;
+    padding: 10px;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #ada7fa94;
+}
+.centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form {
+    flex-direction: column;
+}
+.send {
+    background-color: lavender;
+}
+.img {
+    height: 20vh;
+    width: 10vw;
+}

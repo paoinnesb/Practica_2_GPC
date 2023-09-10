@@ -3,14 +3,17 @@
         <link rel="stylesheet" href="/css/style.css">
     </head>
 
-    <body>
-        <form action="/cgi-bin/index.py" method="get">
-<!--    <form action="/cgi-bin/index.py" method="post"> -->
-            User: <input type="text"     name="user"   ></br>
-            Pass: <input type="password" name="pass"   ></br>
-	          <input type="submit"   value="enviar">
-        </form>
-
+    <body class="centered">
+        <div class="container centered">
+            <form action="/cgi-bin/index.py" method="get" class="centered">
+    <!--    <form action="/cgi-bin/index.py" method="post"> -->
+                User: <input type="text"     name="user"   ></br>
+                Pass: <input type="password" name="pass"   ></br>
+                  <input type="submit" class="send" value="enviar">
+            </form>
+            <img class="img" src="/images/harry.webp"/>
+        </div>
+        
 
         <script src="/js/script.js"></script>
 
